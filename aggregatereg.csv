@@ -1,0 +1,9 @@
+Label,# Samples,Average,Median,90% Line,95% Line,99% Line,Min,Max,Error %,Throughput,Received KB/sec,Sent KB/sec
+launch,2,19,15,23,23,23,15,23,0.000%,4.14938,70.47,3.18
+click_on_appointment,2,13,9,17,17,17,9,17,0.000%,4.37637,16.09,3.79
+gotto_registrationpage,2,11,8,15,15,15,8,15,0.000%,4.43459,25.26,4.09
+BeanShell Sampler,2,4,4,4,4,4,4,4,0.000%,4.54545,0.00,0.00
+fillin_submit,2,7,5,9,9,9,5,9,0.000%,4.51467,26.02,4.99
+Debug Sampler,2,1,0,2,2,2,0,2,0.000%,4.61894,1.52,0.00
+registration,2,55,41,70,70,70,41,70,0.000%,3.40716,110.55,12.47
+TOTAL,14,15,9,41,41,70,0,70,0.000%,23.85009,221.10,24.94
