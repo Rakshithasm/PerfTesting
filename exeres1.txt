@@ -1,0 +1,331 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1723640188368,3,Tnx_01_Launch,200,"Number of samples in transaction : 1, number of failing samples : 0",script_1 1-10,,true,,6401,651,1,1,null,0,1,1
+1723640188369,3,HTTP Request,200,OK,script_1 1-10,text,true,,6401,651,1,1,http://localhost/banking/,3,0,1
+1723640188373,6,Tnx_02_Click_open_Acc,200,"Number of samples in transaction : 3, number of failing samples : 0",script_1 1-10,,true,,22844,3473,1,1,null,0,1,0
+1723640188373,1,HTTP Request,200,OK,script_1 1-10,text,true,,6969,689,1,1,http://localhost/banking/customer_reg_form.php,1,0,0
+1723640188375,3,HTTP Request,200,OK,script_1 1-10,text,true,,11525,2000,1,1,http://localhost/banking/cust_regfrm_confirm.php,2,0,0
+1723640188375,2,HTTP Request-0,302,Found,script_1 1-10,text,true,,7175,1141,1,1,http://localhost/banking/customer_reg_form.php,2,0,0
+1723640188377,1,HTTP Request-1,200,OK,script_1 1-10,text,true,,4350,859,1,1,http://localhost/banking/cust_regfrm_confirm.php,1,0,0
+1723640188378,2,HTTP Request,200,OK,script_1 1-10,text,true,,4350,784,1,1,http://localhost/banking/cust_regfrm_confirm.php,2,0,0
+1723640188380,8,Tnx_03_view_acc_details_n_submit,200,"Number of samples in transaction : 2, number of failing samples : 0",script_1 1-10,,true,,10985,1628,1,1,null,0,3,0
+1723640188380,7,HTTP Request,200,OK,script_1 1-10,text,true,,4585,902,1,1,http://localhost/banking/cust_regfrm_confirm.php,7,0,0
+1723640188390,1,HTTP Request,200,OK,script_1 1-10,text,true,,6400,726,1,1,http://localhost/banking/index.php,1,0,0
+1723640218366,1,Tnx_01_Launch,200,"Number of samples in transaction : 1, number of failing samples : 0",script_1 1-9,,true,,6401,651,2,2,null,0,2,0
+1723640218368,1,HTTP Request,200,OK,script_1 1-9,text,true,,6401,651,2,2,http://localhost/banking/,1,0,0
+1723640218372,5,Tnx_02_Click_open_Acc,200,"Number of samples in transaction : 3, number of failing samples : 0",script_1 1-9,,true,,22840,3471,2,2,null,0,1,0
+1723640218372,1,HTTP Request,200,OK,script_1 1-9,text,true,,6969,689,2,2,http://localhost/banking/customer_reg_form.php,1,0,0
+1723640218373,3,HTTP Request,200,OK,script_1 1-9,text,true,,11523,1998,2,2,http://localhost/banking/cust_regfrm_confirm.php,2,0,0
+1723640218373,2,HTTP Request-0,302,Found,script_1 1-9,text,true,,7175,1139,2,2,http://localhost/banking/customer_reg_form.php,2,0,0
+1723640218375,1,HTTP Request-1,200,OK,script_1 1-9,text,true,,4348,859,2,2,http://localhost/banking/cust_regfrm_confirm.php,1,0,0
+1723640218376,1,HTTP Request,200,OK,script_1 1-9,text,true,,4348,784,2,2,http://localhost/banking/cust_regfrm_confirm.php,1,0,0
+1723640218379,8,Tnx_03_view_acc_details_n_submit,200,"Number of samples in transaction : 2, number of failing samples : 0",script_1 1-9,,true,,10983,1628,2,2,null,0,3,0
+1723640218379,6,HTTP Request,200,OK,script_1 1-9,text,true,,4583,902,2,2,http://localhost/banking/cust_regfrm_confirm.php,6,0,0
+1723640218388,2,HTTP Request,200,OK,script_1 1-9,text,true,,6400,726,2,2,http://localhost/banking/index.php,2,0,0
+1723640248367,3,Tnx_01_Launch,200,"Number of samples in transaction : 1, number of failing samples : 0",script_1 1-8,,true,,6401,651,3,3,null,0,1,2
+1723640248368,3,HTTP Request,200,OK,script_1 1-8,text,true,,6401,651,3,3,http://localhost/banking/,3,0,2
+1723640248371,7,Tnx_02_Click_open_Acc,200,"Number of samples in transaction : 3, number of failing samples : 0",script_1 1-8,,true,,22838,3470,3,3,null,0,0,0
+1723640248371,2,HTTP Request,200,OK,script_1 1-8,text,true,,6969,689,3,3,http://localhost/banking/customer_reg_form.php,2,0,0
+1723640248373,3,HTTP Request,200,OK,script_1 1-8,text,true,,11522,1997,3,3,http://localhost/banking/cust_regfrm_confirm.php,2,0,0
+1723640248373,2,HTTP Request-0,302,Found,script_1 1-8,text,true,,7175,1138,3,3,http://localhost/banking/customer_reg_form.php,2,0,0
+1723640248375,1,HTTP Request-1,200,OK,script_1 1-8,text,true,,4347,859,3,3,http://localhost/banking/cust_regfrm_confirm.php,1,0,0
+1723640248376,2,HTTP Request,200,OK,script_1 1-8,text,true,,4347,784,3,3,http://localhost/banking/cust_regfrm_confirm.php,2,0,0
+1723640248378,8,Tnx_03_view_acc_details_n_submit,200,"Number of samples in transaction : 2, number of failing samples : 0",script_1 1-8,,true,,10982,1628,3,3,null,0,6,0
+1723640248378,7,HTTP Request,200,OK,script_1 1-8,text,true,,4582,902,3,3,http://localhost/banking/cust_regfrm_confirm.php,7,0,0
+1723640248391,1,HTTP Request,200,OK,script_1 1-8,text,true,,6400,726,3,3,http://localhost/banking/index.php,1,0,0
+1723640278366,2,Tnx_01_Launch,200,"Number of samples in transaction : 1, number of failing samples : 0",script_1 1-7,,true,,6401,651,4,4,null,0,1,0
+1723640278367,2,HTTP Request,200,OK,script_1 1-7,text,true,,6401,651,4,4,http://localhost/banking/,2,0,0
+1723640278369,11,Tnx_02_Click_open_Acc,200,"Number of samples in transaction : 3, number of failing samples : 0",script_1 1-7,,true,,22840,3471,4,4,null,0,0,0
+1723640278369,2,HTTP Request,200,OK,script_1 1-7,text,true,,6969,689,4,4,http://localhost/banking/customer_reg_form.php,2,0,0
+1723640278371,6,HTTP Request,200,OK,script_1 1-7,text,true,,11523,1998,4,4,http://localhost/banking/cust_regfrm_confirm.php,2,0,0
+1723640278371,2,HTTP Request-0,302,Found,script_1 1-7,text,true,,7175,1139,4,4,http://localhost/banking/customer_reg_form.php,2,0,0
+1723640278374,3,HTTP Request-1,200,OK,script_1 1-7,text,true,,4348,859,4,4,http://localhost/banking/cust_regfrm_confirm.php,3,0,0
+1723640278377,3,HTTP Request,200,OK,script_1 1-7,text,true,,4348,784,4,4,http://localhost/banking/cust_regfrm_confirm.php,3,0,0
+1723640278380,12,Tnx_03_view_acc_details_n_submit,200,"Number of samples in transaction : 2, number of failing samples : 0",script_1 1-7,,true,,10983,1628,4,4,null,0,4,0
+1723640278380,10,HTTP Request,200,OK,script_1 1-7,text,true,,4583,902,4,4,http://localhost/banking/cust_regfrm_confirm.php,10,0,0
+1723640278394,2,HTTP Request,200,OK,script_1 1-7,text,true,,6400,726,4,4,http://localhost/banking/index.php,2,0,0
+1723640308367,1,Tnx_01_Launch,200,"Number of samples in transaction : 1, number of failing samples : 0",script_1 1-6,,true,,6401,651,5,5,null,0,1,0
+1723640308368,1,HTTP Request,200,OK,script_1 1-6,text,true,,6401,651,5,5,http://localhost/banking/,1,0,0
+1723640308370,5,Tnx_02_Click_open_Acc,200,"Number of samples in transaction : 3, number of failing samples : 0",script_1 1-6,,true,,22836,3469,5,5,null,0,0,0
+1723640308370,1,HTTP Request,200,OK,script_1 1-6,text,true,,6969,689,5,5,http://localhost/banking/customer_reg_form.php,1,0,0
+1723640308371,3,HTTP Request,200,OK,script_1 1-6,text,true,,11521,1996,5,5,http://localhost/banking/cust_regfrm_confirm.php,1,0,0
+1723640308371,1,HTTP Request-0,302,Found,script_1 1-6,text,true,,7175,1137,5,5,http://localhost/banking/customer_reg_form.php,1,0,0
+1723640308373,1,HTTP Request-1,200,OK,script_1 1-6,text,true,,4346,859,5,5,http://localhost/banking/cust_regfrm_confirm.php,1,0,0
+1723640308374,1,HTTP Request,200,OK,script_1 1-6,text,true,,4346,784,5,5,http://localhost/banking/cust_regfrm_confirm.php,1,0,0
+1723640308375,6,Tnx_03_view_acc_details_n_submit,200,"Number of samples in transaction : 2, number of failing samples : 0",script_1 1-6,,true,,10981,1628,5,5,null,0,3,0
+1723640308376,5,HTTP Request,200,OK,script_1 1-6,text,true,,4581,902,5,5,http://localhost/banking/cust_regfrm_confirm.php,5,0,0
+1723640308383,1,HTTP Request,200,OK,script_1 1-6,text,true,,6400,726,5,5,http://localhost/banking/index.php,1,0,0
+1723640338395,5,Tnx_01_Launch,200,"Number of samples in transaction : 1, number of failing samples : 0",script_1 1-5,,true,,6401,651,6,6,null,0,1,2
+1723640338396,5,HTTP Request,200,OK,script_1 1-5,text,true,,6401,651,6,6,http://localhost/banking/,5,0,2
+1723640338401,12,Tnx_02_Click_open_Acc,200,"Number of samples in transaction : 3, number of failing samples : 0",script_1 1-5,,true,,22842,3472,6,6,null,0,4,0
+1723640338401,3,HTTP Request,200,OK,script_1 1-5,text,true,,6969,689,6,6,http://localhost/banking/customer_reg_form.php,3,0,0
+1723640338405,5,HTTP Request,200,OK,script_1 1-5,text,true,,11524,1999,6,6,http://localhost/banking/cust_regfrm_confirm.php,2,0,0
+1723640338405,2,HTTP Request-0,302,Found,script_1 1-5,text,true,,7175,1140,6,6,http://localhost/banking/customer_reg_form.php,2,0,0
+1723640338407,3,HTTP Request-1,200,OK,script_1 1-5,text,true,,4349,859,6,6,http://localhost/banking/cust_regfrm_confirm.php,3,0,0
+1723640338413,4,HTTP Request,200,OK,script_1 1-5,text,true,,4349,784,6,6,http://localhost/banking/cust_regfrm_confirm.php,4,0,0
+1723640338418,23,Tnx_03_view_acc_details_n_submit,200,"Number of samples in transaction : 2, number of failing samples : 0",script_1 1-5,,true,,10984,1628,6,6,null,0,10,0
+1723640338418,22,HTTP Request,200,OK,script_1 1-5,text,true,,4584,902,6,6,http://localhost/banking/cust_regfrm_confirm.php,22,0,0
+1723640338450,1,HTTP Request,200,OK,script_1 1-5,text,true,,6400,726,6,6,http://localhost/banking/index.php,1,0,0
+1723640368367,2,Tnx_01_Launch,200,"Number of samples in transaction : 1, number of failing samples : 0",script_1 1-4,,true,,6401,651,7,7,null,0,1,0
+1723640368368,2,HTTP Request,200,OK,script_1 1-4,text,true,,6401,651,7,7,http://localhost/banking/,2,0,0
+1723640368370,7,Tnx_02_Click_open_Acc,200,"Number of samples in transaction : 3, number of failing samples : 0",script_1 1-4,,true,,22844,3473,7,7,null,0,0,0
+1723640368370,1,HTTP Request,200,OK,script_1 1-4,text,true,,6969,689,7,7,http://localhost/banking/customer_reg_form.php,1,0,0
+1723640368371,5,HTTP Request,200,OK,script_1 1-4,text,true,,11525,2000,7,7,http://localhost/banking/cust_regfrm_confirm.php,3,0,0
+1723640368371,3,HTTP Request-0,302,Found,script_1 1-4,text,true,,7175,1141,7,7,http://localhost/banking/customer_reg_form.php,3,0,0
+1723640368374,2,HTTP Request-1,200,OK,script_1 1-4,text,true,,4350,859,7,7,http://localhost/banking/cust_regfrm_confirm.php,2,0,0
+1723640368376,1,HTTP Request,200,OK,script_1 1-4,text,true,,4350,784,7,7,http://localhost/banking/cust_regfrm_confirm.php,1,0,0
+1723640368377,26,Tnx_03_view_acc_details_n_submit,200,"Number of samples in transaction : 2, number of failing samples : 0",script_1 1-4,,true,,10985,1628,7,7,null,0,5,0
+1723640368378,25,HTTP Request,200,OK,script_1 1-4,text,true,,4585,902,7,7,http://localhost/banking/cust_regfrm_confirm.php,25,0,0
+1723640368407,1,HTTP Request,200,OK,script_1 1-4,text,true,,6400,726,7,7,http://localhost/banking/index.php,1,0,0
+1723640398367,2,Tnx_01_Launch,200,"Number of samples in transaction : 1, number of failing samples : 0",script_1 1-3,,true,,6401,651,8,8,null,0,2,1
+1723640398368,2,HTTP Request,200,OK,script_1 1-3,text,true,,6401,651,8,8,http://localhost/banking/,2,0,1
+1723640398371,7,Tnx_02_Click_open_Acc,200,"Number of samples in transaction : 3, number of failing samples : 0",script_1 1-3,,true,,22846,3474,8,8,null,0,0,0
+1723640398371,1,HTTP Request,200,OK,script_1 1-3,text,true,,6969,689,8,8,http://localhost/banking/customer_reg_form.php,1,0,0
+1723640398372,4,HTTP Request,200,OK,script_1 1-3,text,true,,11526,2001,8,8,http://localhost/banking/cust_regfrm_confirm.php,2,0,0
+1723640398372,2,HTTP Request-0,302,Found,script_1 1-3,text,true,,7175,1142,8,8,http://localhost/banking/customer_reg_form.php,2,0,0
+1723640398374,2,HTTP Request-1,200,OK,script_1 1-3,text,true,,4351,859,8,8,http://localhost/banking/cust_regfrm_confirm.php,2,0,0
+1723640398376,2,HTTP Request,200,OK,script_1 1-3,text,true,,4351,784,8,8,http://localhost/banking/cust_regfrm_confirm.php,2,0,0
+1723640398378,9,Tnx_03_view_acc_details_n_submit,200,"Number of samples in transaction : 2, number of failing samples : 0",script_1 1-3,,true,,10986,1628,8,8,null,0,3,0
+1723640398378,7,HTTP Request,200,OK,script_1 1-3,text,true,,4586,902,8,8,http://localhost/banking/cust_regfrm_confirm.php,7,0,0
+1723640398387,2,HTTP Request,200,OK,script_1 1-3,text,true,,6400,726,8,8,http://localhost/banking/index.php,2,0,0
+1723640428367,2,Tnx_01_Launch,200,"Number of samples in transaction : 1, number of failing samples : 0",script_1 1-2,,true,,6401,651,9,9,null,0,1,1
+1723640428368,2,HTTP Request,200,OK,script_1 1-2,text,true,,6401,651,9,9,http://localhost/banking/,2,0,1
+1723640428370,6,Tnx_02_Click_open_Acc,200,"Number of samples in transaction : 3, number of failing samples : 0",script_1 1-2,,true,,22848,3475,9,9,null,0,2,0
+1723640428371,1,HTTP Request,200,OK,script_1 1-2,text,true,,6969,689,9,9,http://localhost/banking/customer_reg_form.php,1,0,0
+1723640428372,3,HTTP Request,200,OK,script_1 1-2,text,true,,11527,2002,9,9,http://localhost/banking/cust_regfrm_confirm.php,2,0,0
+1723640428372,2,HTTP Request-0,302,Found,script_1 1-2,text,true,,7175,1143,9,9,http://localhost/banking/customer_reg_form.php,2,0,0
+1723640428374,1,HTTP Request-1,200,OK,script_1 1-2,text,true,,4352,859,9,9,http://localhost/banking/cust_regfrm_confirm.php,1,0,0
+1723640428376,2,HTTP Request,200,OK,script_1 1-2,text,true,,4352,784,9,9,http://localhost/banking/cust_regfrm_confirm.php,2,0,0
+1723640428378,17,Tnx_03_view_acc_details_n_submit,200,"Number of samples in transaction : 2, number of failing samples : 0",script_1 1-2,,true,,10987,1628,9,9,null,0,1,0
+1723640428378,16,HTTP Request,200,OK,script_1 1-2,text,true,,4587,902,9,9,http://localhost/banking/cust_regfrm_confirm.php,16,0,0
+1723640428395,1,HTTP Request,200,OK,script_1 1-2,text,true,,6400,726,9,9,http://localhost/banking/index.php,1,0,0
+1723640458368,2,Tnx_01_Launch,200,"Number of samples in transaction : 1, number of failing samples : 0",script_1 1-1,,true,,6401,651,10,10,null,0,0,1
+1723640458368,2,HTTP Request,200,OK,script_1 1-1,text,true,,6401,651,10,10,http://localhost/banking/,2,0,1
+1723640458370,8,Tnx_02_Click_open_Acc,200,"Number of samples in transaction : 3, number of failing samples : 0",script_1 1-1,,true,,22840,3471,10,10,null,0,1,0
+1723640458370,1,HTTP Request,200,OK,script_1 1-1,text,true,,6969,689,10,10,http://localhost/banking/customer_reg_form.php,1,0,0
+1723640458372,6,HTTP Request,200,OK,script_1 1-1,text,true,,11523,1998,10,10,http://localhost/banking/cust_regfrm_confirm.php,3,0,0
+1723640458372,3,HTTP Request-0,302,Found,script_1 1-1,text,true,,7175,1139,10,10,http://localhost/banking/customer_reg_form.php,3,0,0
+1723640458375,3,HTTP Request-1,200,OK,script_1 1-1,text,true,,4348,859,10,10,http://localhost/banking/cust_regfrm_confirm.php,3,0,0
+1723640458378,1,HTTP Request,200,OK,script_1 1-1,text,true,,4348,784,10,10,http://localhost/banking/cust_regfrm_confirm.php,1,0,0
+1723640458380,5,Tnx_03_view_acc_details_n_submit,200,"Number of samples in transaction : 2, number of failing samples : 0",script_1 1-1,,true,,10983,1628,10,10,null,0,3,0
+1723640458380,5,HTTP Request,200,OK,script_1 1-1,text,true,,4583,902,10,10,http://localhost/banking/cust_regfrm_confirm.php,5,0,0
+1723640458387,0,HTTP Request,200,OK,script_1 1-1,text,true,,6400,726,10,10,http://localhost/banking/index.php,0,0,0
+1723640588389,4,Tnx_01_Launch,200,"Number of samples in transaction : 1, number of failing samples : 0",script_1 1-10,,true,,6401,651,10,10,null,0,0,1
+1723640588389,4,HTTP Request,200,OK,script_1 1-10,text,true,,6401,651,10,10,http://localhost/banking/,4,0,1
+1723640588393,7,Tnx_02_Click_open_Acc,200,"Number of samples in transaction : 3, number of failing samples : 0",script_1 1-10,,true,,22840,3471,10,10,null,0,1,0
+1723640588393,1,HTTP Request,200,OK,script_1 1-10,text,true,,6969,689,10,10,http://localhost/banking/customer_reg_form.php,1,0,0
+1723640588394,5,HTTP Request,200,OK,script_1 1-10,text,true,,11523,1998,10,10,http://localhost/banking/cust_regfrm_confirm.php,3,0,0
+1723640588394,3,HTTP Request-0,302,Found,script_1 1-10,text,true,,7175,1139,10,10,http://localhost/banking/customer_reg_form.php,3,0,0
+1723640588397,2,HTTP Request-1,200,OK,script_1 1-10,text,true,,4348,859,10,10,http://localhost/banking/cust_regfrm_confirm.php,2,0,0
+1723640588399,1,HTTP Request,200,OK,script_1 1-10,text,true,,4348,784,10,10,http://localhost/banking/cust_regfrm_confirm.php,1,0,0
+1723640588401,8,Tnx_03_view_acc_details_n_submit,200,"Number of samples in transaction : 2, number of failing samples : 0",script_1 1-10,,true,,10983,1628,10,10,null,0,2,0
+1723640588401,6,HTTP Request,200,OK,script_1 1-10,text,true,,4583,902,10,10,http://localhost/banking/cust_regfrm_confirm.php,6,0,0
+1723640588409,2,HTTP Request,200,OK,script_1 1-10,text,true,,6400,726,10,10,http://localhost/banking/index.php,2,0,0
+1723640618388,3,Tnx_01_Launch,200,"Number of samples in transaction : 1, number of failing samples : 0",script_1 1-9,,true,,6401,651,10,10,null,0,0,1
+1723640618388,3,HTTP Request,200,OK,script_1 1-9,text,true,,6401,651,10,10,http://localhost/banking/,3,0,1
+1723640618392,10,Tnx_02_Click_open_Acc,200,"Number of samples in transaction : 3, number of failing samples : 0",script_1 1-9,,true,,22852,3477,10,10,null,0,2,0
+1723640618392,4,HTTP Request,200,OK,script_1 1-9,text,true,,6969,689,10,10,http://localhost/banking/customer_reg_form.php,4,0,0
+1723640618397,4,HTTP Request,200,OK,script_1 1-9,text,true,,11529,2004,10,10,http://localhost/banking/cust_regfrm_confirm.php,2,0,0
+1723640618397,2,HTTP Request-0,302,Found,script_1 1-9,text,true,,7175,1145,10,10,http://localhost/banking/customer_reg_form.php,2,0,0
+1723640618399,2,HTTP Request-1,200,OK,script_1 1-9,text,true,,4354,859,10,10,http://localhost/banking/cust_regfrm_confirm.php,2,0,0
+1723640618402,2,HTTP Request,200,OK,script_1 1-9,text,true,,4354,784,10,10,http://localhost/banking/cust_regfrm_confirm.php,1,0,0
+1723640618404,30,Tnx_03_view_acc_details_n_submit,200,"Number of samples in transaction : 2, number of failing samples : 0",script_1 1-9,,true,,10989,1628,10,10,null,0,3,0
+1723640618405,29,HTTP Request,200,OK,script_1 1-9,text,true,,4589,902,10,10,http://localhost/banking/cust_regfrm_confirm.php,29,0,0
+1723640618436,1,HTTP Request,200,OK,script_1 1-9,text,true,,6400,726,10,10,http://localhost/banking/index.php,1,0,0
+1723640648403,2,Tnx_01_Launch,200,"Number of samples in transaction : 1, number of failing samples : 0",script_1 1-8,,true,,6401,651,10,10,null,0,0,1
+1723640648403,2,HTTP Request,200,OK,script_1 1-8,text,true,,6401,651,10,10,http://localhost/banking/,2,0,1
+1723640648405,6,Tnx_02_Click_open_Acc,200,"Number of samples in transaction : 3, number of failing samples : 0",script_1 1-8,,true,,22836,3469,10,10,null,0,0,0
+1723640648405,1,HTTP Request,200,OK,script_1 1-8,text,true,,6969,689,10,10,http://localhost/banking/customer_reg_form.php,1,0,0
+1723640648406,4,HTTP Request,200,OK,script_1 1-8,text,true,,11521,1996,10,10,http://localhost/banking/cust_regfrm_confirm.php,2,0,0
+1723640648406,2,HTTP Request-0,302,Found,script_1 1-8,text,true,,7175,1137,10,10,http://localhost/banking/customer_reg_form.php,2,0,0
+1723640648408,2,HTTP Request-1,200,OK,script_1 1-8,text,true,,4346,859,10,10,http://localhost/banking/cust_regfrm_confirm.php,2,0,0
+1723640648410,1,HTTP Request,200,OK,script_1 1-8,text,true,,4346,784,10,10,http://localhost/banking/cust_regfrm_confirm.php,1,0,0
+1723640648411,18,Tnx_03_view_acc_details_n_submit,200,"Number of samples in transaction : 2, number of failing samples : 0",script_1 1-8,,true,,10981,1628,10,10,null,0,1,0
+1723640648411,12,HTTP Request,200,OK,script_1 1-8,text,true,,4581,902,10,10,http://localhost/banking/cust_regfrm_confirm.php,12,0,0
+1723640648424,6,HTTP Request,200,OK,script_1 1-8,text,true,,6400,726,10,10,http://localhost/banking/index.php,6,0,0
+1723640678393,1,Tnx_01_Launch,200,"Number of samples in transaction : 1, number of failing samples : 0",script_1 1-7,,true,,6401,651,10,10,null,0,1,0
+1723640678394,1,HTTP Request,200,OK,script_1 1-7,text,true,,6401,651,10,10,http://localhost/banking/,1,0,0
+1723640678395,4,Tnx_02_Click_open_Acc,200,"Number of samples in transaction : 3, number of failing samples : 0",script_1 1-7,,true,,22842,3472,10,10,null,0,2,0
+1723640678396,0,HTTP Request,200,OK,script_1 1-7,text,true,,6969,689,10,10,http://localhost/banking/customer_reg_form.php,0,0,0
+1723640678397,3,HTTP Request,200,OK,script_1 1-7,text,true,,11524,1999,10,10,http://localhost/banking/cust_regfrm_confirm.php,1,0,0
+1723640678397,1,HTTP Request-0,302,Found,script_1 1-7,text,true,,7175,1140,10,10,http://localhost/banking/customer_reg_form.php,1,0,0
+1723640678399,1,HTTP Request-1,200,OK,script_1 1-7,text,true,,4349,859,10,10,http://localhost/banking/cust_regfrm_confirm.php,1,0,0
+1723640678400,1,HTTP Request,200,OK,script_1 1-7,text,true,,4349,784,10,10,http://localhost/banking/cust_regfrm_confirm.php,1,0,0
+1723640678402,12,Tnx_03_view_acc_details_n_submit,200,"Number of samples in transaction : 2, number of failing samples : 0",script_1 1-7,,true,,10984,1628,10,10,null,0,2,0
+1723640678402,11,HTTP Request,200,OK,script_1 1-7,text,true,,4584,902,10,10,http://localhost/banking/cust_regfrm_confirm.php,11,0,0
+1723640678415,1,HTTP Request,200,OK,script_1 1-7,text,true,,6400,726,10,10,http://localhost/banking/index.php,1,0,0
+1723640708387,2,Tnx_01_Launch,200,"Number of samples in transaction : 1, number of failing samples : 0",script_1 1-6,,true,,6401,651,10,10,null,0,0,1
+1723640708387,2,HTTP Request,200,OK,script_1 1-6,text,true,,6401,651,10,10,http://localhost/banking/,2,0,1
+1723640708390,5,Tnx_02_Click_open_Acc,200,"Number of samples in transaction : 3, number of failing samples : 0",script_1 1-6,,true,,22844,3473,10,10,null,0,1,0
+1723640708390,1,HTTP Request,200,OK,script_1 1-6,text,true,,6969,689,10,10,http://localhost/banking/customer_reg_form.php,1,0,0
+1723640708391,3,HTTP Request,200,OK,script_1 1-6,text,true,,11525,2000,10,10,http://localhost/banking/cust_regfrm_confirm.php,1,0,0
+1723640708391,1,HTTP Request-0,302,Found,script_1 1-6,text,true,,7175,1141,10,10,http://localhost/banking/customer_reg_form.php,1,0,0
+1723640708393,1,HTTP Request-1,200,OK,script_1 1-6,text,true,,4350,859,10,10,http://localhost/banking/cust_regfrm_confirm.php,1,0,0
+1723640708395,1,HTTP Request,200,OK,script_1 1-6,text,true,,4350,784,10,10,http://localhost/banking/cust_regfrm_confirm.php,1,0,0
+1723640708396,10,Tnx_03_view_acc_details_n_submit,200,"Number of samples in transaction : 2, number of failing samples : 0",script_1 1-6,,true,,10985,1628,10,10,null,0,1,0
+1723640708396,9,HTTP Request,200,OK,script_1 1-6,text,true,,4585,902,10,10,http://localhost/banking/cust_regfrm_confirm.php,9,0,0
+1723640708406,1,HTTP Request,200,OK,script_1 1-6,text,true,,6400,726,10,10,http://localhost/banking/index.php,1,0,0
+1723640738452,2,Tnx_01_Launch,200,"Number of samples in transaction : 1, number of failing samples : 0",script_1 1-5,,true,,6401,651,10,10,null,0,0,1
+1723640738452,2,HTTP Request,200,OK,script_1 1-5,text,true,,6401,651,10,10,http://localhost/banking/,2,0,1
+1723640738454,14,Tnx_02_Click_open_Acc,200,"Number of samples in transaction : 3, number of failing samples : 0",script_1 1-5,,true,,22836,3469,10,10,null,0,1,0
+1723640738454,1,HTTP Request,200,OK,script_1 1-5,text,true,,6969,689,10,10,http://localhost/banking/customer_reg_form.php,1,0,0
+1723640738456,10,HTTP Request,200,OK,script_1 1-5,text,true,,11521,1996,10,10,http://localhost/banking/cust_regfrm_confirm.php,4,0,0
+1723640738456,4,HTTP Request-0,302,Found,script_1 1-5,text,true,,7175,1137,10,10,http://localhost/banking/customer_reg_form.php,4,0,0
+1723640738460,6,HTTP Request-1,200,OK,script_1 1-5,text,true,,4346,859,10,10,http://localhost/banking/cust_regfrm_confirm.php,6,0,0
+1723640738466,3,HTTP Request,200,OK,script_1 1-5,text,true,,4346,784,10,10,http://localhost/banking/cust_regfrm_confirm.php,3,0,0
+1723640738469,10,Tnx_03_view_acc_details_n_submit,200,"Number of samples in transaction : 2, number of failing samples : 0",script_1 1-5,,true,,10981,1628,10,10,null,0,2,0
+1723640738469,9,HTTP Request,200,OK,script_1 1-5,text,true,,4581,902,10,10,http://localhost/banking/cust_regfrm_confirm.php,9,0,0
+1723640738480,1,HTTP Request,200,OK,script_1 1-5,text,true,,6400,726,10,10,http://localhost/banking/index.php,1,0,0
+1723640768408,2,Tnx_01_Launch,200,"Number of samples in transaction : 1, number of failing samples : 0",script_1 1-4,,true,,6401,651,10,10,null,0,0,1
+1723640768408,2,HTTP Request,200,OK,script_1 1-4,text,true,,6401,651,10,10,http://localhost/banking/,2,0,1
+1723640768410,5,Tnx_02_Click_open_Acc,200,"Number of samples in transaction : 3, number of failing samples : 0",script_1 1-4,,true,,22836,3469,10,10,null,0,2,0
+1723640768410,1,HTTP Request,200,OK,script_1 1-4,text,true,,6969,689,10,10,http://localhost/banking/customer_reg_form.php,1,0,0
+1723640768412,3,HTTP Request,200,OK,script_1 1-4,text,true,,11521,1996,10,10,http://localhost/banking/cust_regfrm_confirm.php,1,0,0
+1723640768412,1,HTTP Request-0,302,Found,script_1 1-4,text,true,,7175,1137,10,10,http://localhost/banking/customer_reg_form.php,1,0,0
+1723640768414,1,HTTP Request-1,200,OK,script_1 1-4,text,true,,4346,859,10,10,http://localhost/banking/cust_regfrm_confirm.php,1,0,0
+1723640768416,1,HTTP Request,200,OK,script_1 1-4,text,true,,4346,784,10,10,http://localhost/banking/cust_regfrm_confirm.php,1,0,0
+1723640768417,8,Tnx_03_view_acc_details_n_submit,200,"Number of samples in transaction : 2, number of failing samples : 0",script_1 1-4,,true,,10981,1628,10,10,null,0,1,0
+1723640768417,7,HTTP Request,200,OK,script_1 1-4,text,true,,4581,902,10,10,http://localhost/banking/cust_regfrm_confirm.php,7,0,0
+1723640768425,1,HTTP Request,200,OK,script_1 1-4,text,true,,6400,726,10,10,http://localhost/banking/index.php,1,0,0
+1723640798391,2,Tnx_01_Launch,200,"Number of samples in transaction : 1, number of failing samples : 0",script_1 1-3,,true,,6401,651,10,10,null,0,0,1
+1723640798391,2,HTTP Request,200,OK,script_1 1-3,text,true,,6401,651,10,10,http://localhost/banking/,2,0,1
+1723640798393,7,Tnx_02_Click_open_Acc,200,"Number of samples in transaction : 3, number of failing samples : 0",script_1 1-3,,true,,22838,3470,10,10,null,0,1,0
+1723640798393,1,HTTP Request,200,OK,script_1 1-3,text,true,,6969,689,10,10,http://localhost/banking/customer_reg_form.php,1,0,0
+1723640798394,5,HTTP Request,200,OK,script_1 1-3,text,true,,11522,1997,10,10,http://localhost/banking/cust_regfrm_confirm.php,3,0,0
+1723640798394,3,HTTP Request-0,302,Found,script_1 1-3,text,true,,7175,1138,10,10,http://localhost/banking/customer_reg_form.php,3,0,0
+1723640798397,2,HTTP Request-1,200,OK,script_1 1-3,text,true,,4347,859,10,10,http://localhost/banking/cust_regfrm_confirm.php,2,0,0
+1723640798400,1,HTTP Request,200,OK,script_1 1-3,text,true,,4347,784,10,10,http://localhost/banking/cust_regfrm_confirm.php,1,0,0
+1723640798401,7,Tnx_03_view_acc_details_n_submit,200,"Number of samples in transaction : 2, number of failing samples : 0",script_1 1-3,,true,,10982,1628,10,10,null,0,4,0
+1723640798402,6,HTTP Request,200,OK,script_1 1-3,text,true,,4582,902,10,10,http://localhost/banking/cust_regfrm_confirm.php,6,0,0
+1723640798411,1,HTTP Request,200,OK,script_1 1-3,text,true,,6400,726,10,10,http://localhost/banking/index.php,1,0,0
+1723640828402,3,Tnx_01_Launch,200,"Number of samples in transaction : 1, number of failing samples : 0",script_1 1-2,,true,,6401,651,10,10,null,0,1,2
+1723640828403,3,HTTP Request,200,OK,script_1 1-2,text,true,,6401,651,10,10,http://localhost/banking/,3,0,2
+1723640828407,26,Tnx_02_Click_open_Acc,200,"Number of samples in transaction : 3, number of failing samples : 0",script_1 1-2,,true,,22834,3468,10,10,null,0,1,0
+1723640828407,4,HTTP Request,200,OK,script_1 1-2,text,true,,6969,689,10,10,http://localhost/banking/customer_reg_form.php,4,0,0
+1723640828412,15,HTTP Request,200,OK,script_1 1-2,text,true,,11520,1995,10,10,http://localhost/banking/cust_regfrm_confirm.php,5,0,0
+1723640828412,5,HTTP Request-0,302,Found,script_1 1-2,text,true,,7175,1136,10,10,http://localhost/banking/customer_reg_form.php,5,0,0
+1723640828418,9,HTTP Request-1,200,OK,script_1 1-2,text,true,,4345,859,10,10,http://localhost/banking/cust_regfrm_confirm.php,9,0,0
+1723640828427,7,HTTP Request,200,OK,script_1 1-2,text,true,,4345,784,10,10,http://localhost/banking/cust_regfrm_confirm.php,7,0,0
+1723640828436,16,Tnx_03_view_acc_details_n_submit,200,"Number of samples in transaction : 2, number of failing samples : 0",script_1 1-2,,true,,10980,1628,10,10,null,0,1,0
+1723640828436,14,HTTP Request,200,OK,script_1 1-2,text,true,,4580,902,10,10,http://localhost/banking/cust_regfrm_confirm.php,14,0,0
+1723640828451,2,HTTP Request,200,OK,script_1 1-2,text,true,,6400,726,10,10,http://localhost/banking/index.php,2,0,0
+1723640858387,2,Tnx_01_Launch,200,"Number of samples in transaction : 1, number of failing samples : 0",script_1 1-1,,true,,6401,651,10,10,null,0,0,1
+1723640858387,2,HTTP Request,200,OK,script_1 1-1,text,true,,6401,651,10,10,http://localhost/banking/,2,0,1
+1723640858389,6,Tnx_02_Click_open_Acc,200,"Number of samples in transaction : 3, number of failing samples : 0",script_1 1-1,,true,,22832,3467,10,10,null,0,1,0
+1723640858389,1,HTTP Request,200,OK,script_1 1-1,text,true,,6969,689,10,10,http://localhost/banking/customer_reg_form.php,1,0,0
+1723640858390,4,HTTP Request,200,OK,script_1 1-1,text,true,,11519,1994,10,10,http://localhost/banking/cust_regfrm_confirm.php,2,0,0
+1723640858390,2,HTTP Request-0,302,Found,script_1 1-1,text,true,,7175,1135,10,10,http://localhost/banking/customer_reg_form.php,2,0,0
+1723640858393,1,HTTP Request-1,200,OK,script_1 1-1,text,true,,4344,859,10,10,http://localhost/banking/cust_regfrm_confirm.php,1,0,0
+1723640858394,1,HTTP Request,200,OK,script_1 1-1,text,true,,4344,784,10,10,http://localhost/banking/cust_regfrm_confirm.php,1,0,0
+1723640858396,6,Tnx_03_view_acc_details_n_submit,200,"Number of samples in transaction : 2, number of failing samples : 0",script_1 1-1,,true,,10979,1628,10,10,null,0,1,0
+1723640858396,5,HTTP Request,200,OK,script_1 1-1,text,true,,4579,902,10,10,http://localhost/banking/cust_regfrm_confirm.php,5,0,0
+1723640858402,1,HTTP Request,200,OK,script_1 1-1,text,true,,6400,726,10,10,http://localhost/banking/index.php,1,0,0
+1723640988407,3,Tnx_01_Launch,200,"Number of samples in transaction : 1, number of failing samples : 0",script_1 1-10,,true,,6401,651,10,10,null,0,0,1
+1723640988407,3,HTTP Request,200,OK,script_1 1-10,text,true,,6401,651,10,10,http://localhost/banking/,3,0,1
+1723640988410,6,Tnx_02_Click_open_Acc,200,"Number of samples in transaction : 3, number of failing samples : 0",script_1 1-10,,true,,22846,3474,10,10,null,0,0,0
+1723640988410,1,HTTP Request,200,OK,script_1 1-10,text,true,,6969,689,10,10,http://localhost/banking/customer_reg_form.php,1,0,0
+1723640988411,4,HTTP Request,200,OK,script_1 1-10,text,true,,11526,2001,10,10,http://localhost/banking/cust_regfrm_confirm.php,2,0,0
+1723640988411,2,HTTP Request-0,302,Found,script_1 1-10,text,true,,7175,1142,10,10,http://localhost/banking/customer_reg_form.php,2,0,0
+1723640988413,2,HTTP Request-1,200,OK,script_1 1-10,text,true,,4351,859,10,10,http://localhost/banking/cust_regfrm_confirm.php,2,0,0
+1723640988415,1,HTTP Request,200,OK,script_1 1-10,text,true,,4351,784,10,10,http://localhost/banking/cust_regfrm_confirm.php,1,0,0
+1723640988416,18,Tnx_03_view_acc_details_n_submit,200,"Number of samples in transaction : 2, number of failing samples : 0",script_1 1-10,,true,,10986,1628,10,10,null,0,2,0
+1723640988416,16,HTTP Request,200,OK,script_1 1-10,text,true,,4586,902,10,10,http://localhost/banking/cust_regfrm_confirm.php,16,0,0
+1723640988434,2,HTTP Request,200,OK,script_1 1-10,text,true,,6400,726,10,10,http://localhost/banking/index.php,2,0,0
+1723641018439,2,Tnx_01_Launch,200,"Number of samples in transaction : 1, number of failing samples : 0",script_1 1-9,,true,,6401,651,10,10,null,0,1,1
+1723641018439,2,HTTP Request,200,OK,script_1 1-9,text,true,,6401,651,10,10,http://localhost/banking/,2,0,1
+1723641018442,7,Tnx_02_Click_open_Acc,200,"Number of samples in transaction : 3, number of failing samples : 0",script_1 1-9,,true,,22842,3472,10,10,null,0,0,0
+1723641018442,1,HTTP Request,200,OK,script_1 1-9,text,true,,6969,689,10,10,http://localhost/banking/customer_reg_form.php,1,0,0
+1723641018443,4,HTTP Request,200,OK,script_1 1-9,text,true,,11524,1999,10,10,http://localhost/banking/cust_regfrm_confirm.php,2,0,0
+1723641018443,2,HTTP Request-0,302,Found,script_1 1-9,text,true,,7175,1140,10,10,http://localhost/banking/customer_reg_form.php,2,0,0
+1723641018445,2,HTTP Request-1,200,OK,script_1 1-9,text,true,,4349,859,10,10,http://localhost/banking/cust_regfrm_confirm.php,2,0,0
+1723641018447,2,HTTP Request,200,OK,script_1 1-9,text,true,,4349,784,10,10,http://localhost/banking/cust_regfrm_confirm.php,2,0,0
+1723641018449,14,Tnx_03_view_acc_details_n_submit,200,"Number of samples in transaction : 2, number of failing samples : 0",script_1 1-9,,true,,10984,1628,10,10,null,0,1,0
+1723641018449,10,HTTP Request,200,OK,script_1 1-9,text,true,,4584,902,10,10,http://localhost/banking/cust_regfrm_confirm.php,10,0,0
+1723641018460,4,HTTP Request,200,OK,script_1 1-9,text,true,,6400,726,10,10,http://localhost/banking/index.php,4,0,0
+1723641048422,5,Tnx_01_Launch,200,"Number of samples in transaction : 1, number of failing samples : 0",script_1 1-8,,true,,6401,651,10,10,null,0,1,3
+1723641048423,5,HTTP Request,200,OK,script_1 1-8,text,true,,6401,651,10,10,http://localhost/banking/,5,0,3
+1723641048428,9,Tnx_02_Click_open_Acc,200,"Number of samples in transaction : 3, number of failing samples : 0",script_1 1-8,,true,,22844,3473,10,10,null,0,0,0
+1723641048428,1,HTTP Request,200,OK,script_1 1-8,text,true,,6969,689,10,10,http://localhost/banking/customer_reg_form.php,1,0,0
+1723641048429,6,HTTP Request,200,OK,script_1 1-8,text,true,,11525,2000,10,10,http://localhost/banking/cust_regfrm_confirm.php,3,0,0
+1723641048429,3,HTTP Request-0,302,Found,script_1 1-8,text,true,,7175,1141,10,10,http://localhost/banking/customer_reg_form.php,3,0,0
+1723641048433,2,HTTP Request-1,200,OK,script_1 1-8,text,true,,4350,859,10,10,http://localhost/banking/cust_regfrm_confirm.php,2,0,0
+1723641048435,2,HTTP Request,200,OK,script_1 1-8,text,true,,4350,784,10,10,http://localhost/banking/cust_regfrm_confirm.php,2,0,0
+1723641048437,9,Tnx_03_view_acc_details_n_submit,200,"Number of samples in transaction : 2, number of failing samples : 0",script_1 1-8,,true,,10985,1628,10,10,null,0,1,0
+1723641048437,7,HTTP Request,200,OK,script_1 1-8,text,true,,4585,902,10,10,http://localhost/banking/cust_regfrm_confirm.php,7,0,0
+1723641048445,2,HTTP Request,200,OK,script_1 1-8,text,true,,6400,726,10,10,http://localhost/banking/index.php,2,0,0
+1723641078416,6,Tnx_01_Launch,200,"Number of samples in transaction : 1, number of failing samples : 0",script_1 1-7,,true,,6401,651,10,10,null,0,0,4
+1723641078416,6,HTTP Request,200,OK,script_1 1-7,text,true,,6401,651,10,10,http://localhost/banking/,6,0,4
+1723641078422,23,Tnx_02_Click_open_Acc,200,"Number of samples in transaction : 3, number of failing samples : 0",script_1 1-7,,true,,22844,3473,10,10,null,0,41,0
+1723641078422,2,HTTP Request,200,OK,script_1 1-7,text,true,,6969,689,10,10,http://localhost/banking/customer_reg_form.php,1,0,0
+1723641078424,16,HTTP Request,200,OK,script_1 1-7,text,true,,11525,2000,10,10,http://localhost/banking/cust_regfrm_confirm.php,13,0,0
+1723641078424,13,HTTP Request-0,302,Found,script_1 1-7,text,true,,7175,1141,10,10,http://localhost/banking/customer_reg_form.php,13,0,0
+1723641078437,3,HTTP Request-1,200,OK,script_1 1-7,text,true,,4350,859,10,10,http://localhost/banking/cust_regfrm_confirm.php,3,0,0
+1723641078441,5,HTTP Request,200,OK,script_1 1-7,text,true,,4350,784,10,10,http://localhost/banking/cust_regfrm_confirm.php,5,0,0
+1723641078519,8,Tnx_03_view_acc_details_n_submit,200,"Number of samples in transaction : 2, number of failing samples : 0",script_1 1-7,,true,,10985,1628,10,10,null,0,2,0
+1723641078520,6,HTTP Request,200,OK,script_1 1-7,text,true,,4585,902,10,10,http://localhost/banking/cust_regfrm_confirm.php,6,0,0
+1723641078527,2,HTTP Request,200,OK,script_1 1-7,text,true,,6400,726,10,10,http://localhost/banking/index.php,2,0,0
+1723641108412,3,Tnx_01_Launch,200,"Number of samples in transaction : 1, number of failing samples : 0",script_1 1-6,,true,,6401,651,9,9,null,0,2,0
+1723641108414,3,HTTP Request,200,OK,script_1 1-6,text,true,,6401,651,9,9,http://localhost/banking/,3,0,0
+1723641108417,14,Tnx_02_Click_open_Acc,200,"Number of samples in transaction : 3, number of failing samples : 0",script_1 1-6,,true,,22852,3477,9,9,null,0,0,0
+1723641108417,1,HTTP Request,200,OK,script_1 1-6,text,true,,6969,689,9,9,http://localhost/banking/customer_reg_form.php,1,0,0
+1723641108418,9,HTTP Request,200,OK,script_1 1-6,text,true,,11529,2004,9,9,http://localhost/banking/cust_regfrm_confirm.php,4,0,0
+1723641108418,4,HTTP Request-0,302,Found,script_1 1-6,text,true,,7175,1145,9,9,http://localhost/banking/customer_reg_form.php,4,0,0
+1723641108422,5,HTTP Request-1,200,OK,script_1 1-6,text,true,,4354,859,9,9,http://localhost/banking/cust_regfrm_confirm.php,5,0,0
+1723641108427,4,HTTP Request,200,OK,script_1 1-6,text,true,,4354,784,9,9,http://localhost/banking/cust_regfrm_confirm.php,4,0,0
+1723641108431,19,Tnx_03_view_acc_details_n_submit,200,"Number of samples in transaction : 2, number of failing samples : 0",script_1 1-6,,true,,10989,1628,9,9,null,0,1,0
+1723641108431,16,HTTP Request,200,OK,script_1 1-6,text,true,,4589,902,9,9,http://localhost/banking/cust_regfrm_confirm.php,16,0,0
+1723641108448,3,HTTP Request,200,OK,script_1 1-6,text,true,,6400,726,9,9,http://localhost/banking/index.php,3,0,0
+1723641138471,2,Tnx_01_Launch,200,"Number of samples in transaction : 1, number of failing samples : 0",script_1 1-5,,true,,6401,651,8,8,null,0,0,1
+1723641138471,2,HTTP Request,200,OK,script_1 1-5,text,true,,6401,651,8,8,http://localhost/banking/,2,0,1
+1723641138473,5,Tnx_02_Click_open_Acc,200,"Number of samples in transaction : 3, number of failing samples : 0",script_1 1-5,,true,,22834,3468,8,8,null,0,2,0
+1723641138473,1,HTTP Request,200,OK,script_1 1-5,text,true,,6969,689,8,8,http://localhost/banking/customer_reg_form.php,1,0,0
+1723641138475,3,HTTP Request,200,OK,script_1 1-5,text,true,,11520,1995,8,8,http://localhost/banking/cust_regfrm_confirm.php,1,0,0
+1723641138475,1,HTTP Request-0,302,Found,script_1 1-5,text,true,,7175,1136,8,8,http://localhost/banking/customer_reg_form.php,1,0,0
+1723641138476,2,HTTP Request-1,200,OK,script_1 1-5,text,true,,4345,859,8,8,http://localhost/banking/cust_regfrm_confirm.php,2,0,0
+1723641138479,1,HTTP Request,200,OK,script_1 1-5,text,true,,4345,784,8,8,http://localhost/banking/cust_regfrm_confirm.php,1,0,0
+1723641138480,16,Tnx_03_view_acc_details_n_submit,200,"Number of samples in transaction : 2, number of failing samples : 0",script_1 1-5,,true,,10980,1628,8,8,null,0,1,0
+1723641138480,15,HTTP Request,200,OK,script_1 1-5,text,true,,4580,902,8,8,http://localhost/banking/cust_regfrm_confirm.php,15,0,0
+1723641138496,1,HTTP Request,200,OK,script_1 1-5,text,true,,6400,726,8,8,http://localhost/banking/index.php,1,0,0
+1723641168426,2,Tnx_01_Launch,200,"Number of samples in transaction : 1, number of failing samples : 0",script_1 1-4,,true,,6401,651,7,7,null,0,0,1
+1723641168426,2,HTTP Request,200,OK,script_1 1-4,text,true,,6401,651,7,7,http://localhost/banking/,2,0,1
+1723641168428,8,Tnx_02_Click_open_Acc,200,"Number of samples in transaction : 3, number of failing samples : 0",script_1 1-4,,true,,22842,3472,7,7,null,0,1,0
+1723641168428,1,HTTP Request,200,OK,script_1 1-4,text,true,,6969,689,7,7,http://localhost/banking/customer_reg_form.php,1,0,0
+1723641168430,5,HTTP Request,200,OK,script_1 1-4,text,true,,11524,1999,7,7,http://localhost/banking/cust_regfrm_confirm.php,3,0,0
+1723641168430,3,HTTP Request-0,302,Found,script_1 1-4,text,true,,7175,1140,7,7,http://localhost/banking/customer_reg_form.php,3,0,0
+1723641168433,2,HTTP Request-1,200,OK,script_1 1-4,text,true,,4349,859,7,7,http://localhost/banking/cust_regfrm_confirm.php,2,0,0
+1723641168435,2,HTTP Request,200,OK,script_1 1-4,text,true,,4349,784,7,7,http://localhost/banking/cust_regfrm_confirm.php,2,0,0
+1723641168437,8,Tnx_03_view_acc_details_n_submit,200,"Number of samples in transaction : 2, number of failing samples : 0",script_1 1-4,,true,,10984,1628,7,7,null,0,2,0
+1723641168437,7,HTTP Request,200,OK,script_1 1-4,text,true,,4584,902,7,7,http://localhost/banking/cust_regfrm_confirm.php,7,0,0
+1723641168446,1,HTTP Request,200,OK,script_1 1-4,text,true,,6400,726,7,7,http://localhost/banking/index.php,1,0,0
+1723641198411,2,Tnx_01_Launch,200,"Number of samples in transaction : 1, number of failing samples : 0",script_1 1-3,,true,,6401,651,6,6,null,0,1,1
+1723641198412,2,HTTP Request,200,OK,script_1 1-3,text,true,,6401,651,6,6,http://localhost/banking/,2,0,1
+1723641198414,8,Tnx_02_Click_open_Acc,200,"Number of samples in transaction : 3, number of failing samples : 0",script_1 1-3,,true,,22834,3468,6,6,null,0,0,0
+1723641198414,2,HTTP Request,200,OK,script_1 1-3,text,true,,6969,689,6,6,http://localhost/banking/customer_reg_form.php,2,0,0
+1723641198416,4,HTTP Request,200,OK,script_1 1-3,text,true,,11520,1995,6,6,http://localhost/banking/cust_regfrm_confirm.php,1,0,0
+1723641198416,1,HTTP Request-0,302,Found,script_1 1-3,text,true,,7175,1136,6,6,http://localhost/banking/customer_reg_form.php,1,0,0
+1723641198418,2,HTTP Request-1,200,OK,script_1 1-3,text,true,,4345,859,6,6,http://localhost/banking/cust_regfrm_confirm.php,2,0,0
+1723641198420,2,HTTP Request,200,OK,script_1 1-3,text,true,,4345,784,6,6,http://localhost/banking/cust_regfrm_confirm.php,2,0,0
+1723641198422,7,Tnx_03_view_acc_details_n_submit,200,"Number of samples in transaction : 2, number of failing samples : 0",script_1 1-3,,true,,10980,1628,6,6,null,0,2,0
+1723641198422,6,HTTP Request,200,OK,script_1 1-3,text,true,,4580,902,6,6,http://localhost/banking/cust_regfrm_confirm.php,6,0,0
+1723641198430,1,HTTP Request,200,OK,script_1 1-3,text,true,,6400,726,6,6,http://localhost/banking/index.php,1,0,0
+1723641228454,3,Tnx_01_Launch,200,"Number of samples in transaction : 1, number of failing samples : 0",script_1 1-2,,true,,6401,651,5,5,null,0,0,1
+1723641228454,3,HTTP Request,200,OK,script_1 1-2,text,true,,6401,651,5,5,http://localhost/banking/,2,0,1
+1723641228457,5,Tnx_02_Click_open_Acc,200,"Number of samples in transaction : 3, number of failing samples : 0",script_1 1-2,,true,,22842,3472,5,5,null,0,1,0
+1723641228457,1,HTTP Request,200,OK,script_1 1-2,text,true,,6969,689,5,5,http://localhost/banking/customer_reg_form.php,1,0,0
+1723641228458,3,HTTP Request,200,OK,script_1 1-2,text,true,,11524,1999,5,5,http://localhost/banking/cust_regfrm_confirm.php,2,0,0
+1723641228458,2,HTTP Request-0,302,Found,script_1 1-2,text,true,,7175,1140,5,5,http://localhost/banking/customer_reg_form.php,2,0,0
+1723641228460,1,HTTP Request-1,200,OK,script_1 1-2,text,true,,4349,859,5,5,http://localhost/banking/cust_regfrm_confirm.php,1,0,0
+1723641228462,1,HTTP Request,200,OK,script_1 1-2,text,true,,4349,784,5,5,http://localhost/banking/cust_regfrm_confirm.php,1,0,0
+1723641228463,16,Tnx_03_view_acc_details_n_submit,200,"Number of samples in transaction : 2, number of failing samples : 0",script_1 1-2,,true,,10984,1628,5,5,null,0,2,0
+1723641228463,15,HTTP Request,200,OK,script_1 1-2,text,true,,4584,902,5,5,http://localhost/banking/cust_regfrm_confirm.php,15,0,0
+1723641228480,1,HTTP Request,200,OK,script_1 1-2,text,true,,6400,726,5,5,http://localhost/banking/index.php,1,0,0
+1723641258406,2,Tnx_01_Launch,200,"Number of samples in transaction : 1, number of failing samples : 0",script_1 1-1,,true,,6401,651,4,4,null,0,0,1
+1723641258406,2,HTTP Request,200,OK,script_1 1-1,text,true,,6401,651,4,4,http://localhost/banking/,2,0,1
+1723641258408,7,Tnx_02_Click_open_Acc,200,"Number of samples in transaction : 3, number of failing samples : 0",script_1 1-1,,true,,22852,3477,4,4,null,0,0,0
+1723641258408,2,HTTP Request,200,OK,script_1 1-1,text,true,,6969,689,4,4,http://localhost/banking/customer_reg_form.php,2,0,0
+1723641258410,3,HTTP Request,200,OK,script_1 1-1,text,true,,11529,2004,4,4,http://localhost/banking/cust_regfrm_confirm.php,2,0,0
+1723641258410,2,HTTP Request-0,302,Found,script_1 1-1,text,true,,7175,1145,4,4,http://localhost/banking/customer_reg_form.php,2,0,0
+1723641258412,1,HTTP Request-1,200,OK,script_1 1-1,text,true,,4354,859,4,4,http://localhost/banking/cust_regfrm_confirm.php,1,0,0
+1723641258413,2,HTTP Request,200,OK,script_1 1-1,text,true,,4354,784,4,4,http://localhost/banking/cust_regfrm_confirm.php,2,0,0
+1723641258415,18,Tnx_03_view_acc_details_n_submit,200,"Number of samples in transaction : 2, number of failing samples : 0",script_1 1-1,,true,,10989,1628,4,4,null,0,1,0
+1723641258415,16,HTTP Request,200,OK,script_1 1-1,text,true,,4589,902,4,4,http://localhost/banking/cust_regfrm_confirm.php,16,0,0
+1723641258432,2,HTTP Request,200,OK,script_1 1-1,text,true,,6400,726,4,4,http://localhost/banking/index.php,2,0,0
